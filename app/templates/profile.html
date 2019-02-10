@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6">
+                <div class="card card-profile text-center">
+                    <div class="profile-container bg-primary">
+                        <img class="card-img-top rounded-circle profile-image" src="{{ url_for('static', filename='image.jpg') }}" alt="Profile">
+                        <br>
+                        <div class="profile-info mb-2">
+                            <strong class="profile-name">John Wick</strong>
+                            <div>@deadshot_wick</div>
+                            <div>Continental Ground,Saints</div>
+                            <div>Joined {{ date_joined }}</div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="profile-description">My name is John Wick, I am an ex-hit-man, who
+                        comes out of retirement to track down the gangsters that killed my dog and stole my car.</p>
+                        <div class="mb-3">
+                            <div class="row stats">
+                                <div class="col">6</div>
+                                <div class="col">89</div>
+                                <div class="col">4.1k</div>
+                            </div>
+                            <div class="row">
+                                <div class="col">Posts</div>
+                                <div class="col">Following</div>
+                                <div class="col">Followers</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">Follow</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}

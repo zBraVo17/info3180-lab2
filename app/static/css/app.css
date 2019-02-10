@@ -1,3 +1,27 @@
 body {
     padding-top: 5rem;
 }
+.profile-container{
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	background: linear-gradient(90deg, rgba(0,100,100,0.5), rgba(0,123,255,1) 70.71%)
+}
+.profile-image{
+	width: 180px;
+	height: 180px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	box-shadow: 0 3px 4px rgba(0,0,0, 0.6), 0px -2px 4px rgba(0,0,0, 0.6)
+}
+.profile-name{
+	font-size: 2rem;
+}
+.card-profile{
+	color: #aaa;
+}
+.profile-info{
+	color: #fff;
+}
+.stats{
+	color: #000;
+}
